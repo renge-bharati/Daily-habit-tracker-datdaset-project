@@ -5,7 +5,7 @@ import pickle
 
 st.title("Daily Habit Completion Prediction")
 
-model = pickle.load(open("best_model.joblib", "rb"))
+model = pickle(open("best_model.joblib", "rb"))
 
 st.write("Enter Habit Details to Predict if it will be Completed")
 
